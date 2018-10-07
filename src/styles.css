@@ -1,0 +1,45 @@
+body {
+    max-width: 1024px;
+    align-content: center;
+    background-color: azure;
+}
+header{
+   background-color: lightslategrey;
+   border-bottom: 1px solid lightslategrey;
+   position: fixed;
+   width: 100%;
+}
+ul {
+    margin: 30px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+li {
+    text-transform: uppercase;
+    display: inline-block;
+    width: 150px;
+}
+.welcome {
+    background-color: rgb(218, 230, 240);
+    box-sizing: border-box;
+    padding: 40px;
+    text-align: left;
+    width: 100%;
+    position: relative;
+    top: 80px;
+}
+.img {
+    width: 400px;
+}
+main {
+    position: relative;
+    padding-top: 80px;
+    padding-left: 50px;
+    
+}
+.contacts {
+    position: relative;
+}
+.education {
+    position: relative;
+}
