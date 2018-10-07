@@ -14,12 +14,12 @@ header{
    z-index: 1;
    width: 1024px;   
 }
-ul {
+header ul {
     margin: 30px auto;
     padding: 0 20px;
     text-align: center;
 }
-li {
+header li {
     font-family: 'Encode Sans Condensed', sans-serif;
     text-transform: uppercase;
     display: inline-block;
@@ -38,14 +38,21 @@ h1 {
     font-family: 'Encode Sans Condensed', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
-
 }
 h2 {
     font-family: 'Encode Sans Condensed', sans-serif;
+    color: lightslategrey;
 }
-p {
+p, a, td {
     font-family: 'Encode Sans Condensed', sans-serif;
     font-weight: 300;
+}
+table {
+    border-spacing: 2px;
+}
+td{
+    border-bottom: 1px gray solid;
+    padding: 5px;
 }
 .img {
     width: 200px;
@@ -60,7 +67,7 @@ main {
     
 }
 .about {
- 
+    position: relative;
 }
 .contacts {
     position: relative;
@@ -68,14 +75,20 @@ main {
 .education {
     position: relative;
 }
-.skills {
-
+.skills li {
+    position: relative;
+    font-family: 'Encode Sans Condensed', sans-serif;
+    font-weight: 300;
 }
 .portfolio {
-
+    position: relative;
 }
 
 footer {
    background-color: lightslategrey;
    width: 1024px;
+   height: 100px;
+   text-align: center;
+   padding-top: 7px;
+   font-size: 200%;
 }
