@@ -7,6 +7,7 @@ header{
    background-color: lightslategrey;
    border-bottom: 1px solid lightslategrey;
    position: fixed;
+   z-index: 1;
    width: 100%;
 }
 ul {
