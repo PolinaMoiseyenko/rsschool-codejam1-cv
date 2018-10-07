@@ -1,8 +1,4 @@
-#wrapper {
-    margin: auto;
-    width: 1024px;
-    align-content: center;
-}
+
 body {
     width: 1024px;    
     background-color: rgb(236, 236, 236);
@@ -69,7 +65,7 @@ main {
 .about {
     position: relative;
 }
-.contacts {
+#contacts {
     position: relative;
 }
 .education {
