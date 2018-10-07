@@ -1,14 +1,18 @@
-body {
-    max-width: 1024px;
+#wrapper {
+    margin: auto;
+    width: 1024px;
     align-content: center;
-    background-color: azure;
+}
+body {
+    width: 1024px;    
+    background-color: rgb(236, 236, 236);
 }
 header{
    background-color: lightslategrey;
    border-bottom: 1px solid lightslategrey;
    position: fixed;
    z-index: 1;
-   width: 100%;
+   width: 1024px;
 }
 ul {
     margin: 30px auto;
@@ -25,17 +29,20 @@ li {
     box-sizing: border-box;
     padding: 40px;
     text-align: left;
-    width: 100%;
+    width: 1024px;
     position: relative;
     top: 80px;
 }
 .img {
-    width: 400px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
 }
 main {
     position: relative;
     padding-top: 80px;
     padding-left: 50px;
+    width: 1024px;
     
 }
 .contacts {
@@ -43,4 +50,8 @@ main {
 }
 .education {
     position: relative;
+}
+footer {
+   background-color: lightslategrey;
+   width: 1024px;
 }
