@@ -1,4 +1,6 @@
-
+.wrapper {
+    margin: 0 auto;
+}
 body {
     width: 1024px;    
     background-color: rgb(236, 236, 236);
@@ -39,7 +41,9 @@ h2 {
     font-family: 'Encode Sans Condensed', sans-serif;
     color: lightslategrey;
 }
-p, a, td {
+p,
+a,
+td {
     font-family: 'Encode Sans Condensed', sans-serif;
     font-weight: 300;
 }
@@ -79,7 +83,6 @@ main {
 .portfolio {
     position: relative;
 }
-
 footer {
    background-color: lightslategrey;
    width: 1024px;
