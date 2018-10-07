@@ -12,7 +12,7 @@ header{
    border-bottom: 1px solid lightslategrey;
    position: fixed;
    z-index: 1;
-   width: 1024px;
+   width: 1024px;   
 }
 ul {
     margin: 30px auto;
@@ -20,6 +20,7 @@ ul {
     text-align: center;
 }
 li {
+    font-family: 'Encode Sans Condensed', sans-serif;
     text-transform: uppercase;
     display: inline-block;
     width: 150px;
@@ -33,6 +34,19 @@ li {
     position: relative;
     top: 80px;
 }
+h1 {
+    font-family: 'Encode Sans Condensed', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+h2 {
+    font-family: 'Encode Sans Condensed', sans-serif;
+}
+p {
+    font-family: 'Encode Sans Condensed', sans-serif;
+    font-weight: 300;
+}
 .img {
     width: 200px;
     height: 200px;
@@ -45,12 +59,22 @@ main {
     width: 1024px;
     
 }
+.about {
+ 
+}
 .contacts {
     position: relative;
 }
 .education {
     position: relative;
 }
+.skills {
+
+}
+.portfolio {
+
+}
+
 footer {
    background-color: lightslategrey;
    width: 1024px;
